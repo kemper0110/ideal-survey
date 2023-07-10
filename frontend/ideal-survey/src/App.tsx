@@ -1,8 +1,12 @@
+import Constructor from "./constructor/Constructor.tsx";
+
 function App() {
     return (
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <div className={'bg-stone-100'}>
+            <div className={'min-h-screen max-w-[1024px] mx-auto border border-black'}>
+                <Constructor/>
+            </div>
+        </div>
     )
 }
 
